@@ -1,0 +1,35 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ambientes e segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.pfx
+
+# Logs e relatórios temporários
+*.log
+logs/
+reports/
+audit-results/
+coverage/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node / Python / Runtimes
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+env/
+dist/
+build/
+.next/
